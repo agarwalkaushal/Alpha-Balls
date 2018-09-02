@@ -6,4 +6,4 @@ Scripts can be found in the assets folder.
 To contribute, download the repo and open with any UNity 5.x+ editor. 
 To test the executable, simply run the Alpha Balls.exe on a Windows PC.
 
-![alt text](https://raw.githubusercontent.com/agarwalkaushal/Aplha-Balls/master/Editor.png)
+![alt text](https://raw.githubusercontent.com/agarwalkaushal/Alpha-Balls/master/Editor.png)
