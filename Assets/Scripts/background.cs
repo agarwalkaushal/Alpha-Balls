@@ -99,12 +99,12 @@ public class background : MonoBehaviour {
         SceneManager.LoadScene("GameRound");
 
     }
-    private void FixedUpdate()
+    public void FixedUpdate(string key)
     {
         //User input to move the gun which hits the letters
-        if (Input.GetKeyDown(KeyCode.A) == true)
+        if (Input.GetKeyDown(KeyCode.A) == true || key=="LEFT")
             gunMovement.position += new Vector3(1, 0, 0);
-        if (Input.GetKeyDown(KeyCode.D) == true)
+        if (Input.GetKeyDown(KeyCode.D) == true || key=="RIGHT" )
             gunMovement.position += new Vector3(-1,0, 0);
     }
     
